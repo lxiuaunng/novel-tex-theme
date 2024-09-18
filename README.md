@@ -3,6 +3,7 @@
 修改内容如下：
 
 - 修改行内代码、超链接颜色为蓝色。
+- 修改代码字体为 `JetBrains Mono` ，看起来更顺眼一些。
 - 增加了 [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)  主题一样的页面阴影。
 - 增大页宽为 31cm 。
 - 提升了 Dark 主题下整个页面的暗度；提升了 Dark 主题下字体的亮度，使主题没那么”灰蒙蒙“了。

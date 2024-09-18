@@ -3,9 +3,13 @@
 @import "./md-toc.css";
 @import "./table.css";
 @import "./ui.css";
-@import "./list.css";
 
 :root {
+    /* == 使用页面设置 == */
+    /* 页面边距 */
+    --base-page-margin: 45px;
+
+
     /* == 基础字体设置 == */
     --base-Latin-font: "Times New Roman";
     --base-Chinese-font: "Source Han Serif SC";
@@ -70,20 +74,22 @@ body {
     margin: 0 !important;
 }
 
+
 img {
     page-break-inside: avoid;
     /* 避免图片在导出时被断开 */
 }
 
-strong {
-    font-weight: var(--strong-weight);
+/* strong {
+    font-weight: var(--strong-weight) !important;
     color: var(--strong-text-color);
-}
+} */
 
 @media screen {
     #write {
         padding: var(--set-margin);
-        border: 1px solid var(--body-border-color);
+        /* border: 1px solid var(--body-border-color); */
+        box-shadow: 0 0 24px 12px var(--margin-shadow);
     }
 }
 
@@ -104,16 +110,36 @@ pre.md-meta-block {
     font-size: var(--base-font-size);
     max-width: 26cm;
     background-color: var(--bg-color);
+
+    /* github */
+    max-width: 31cm;
+    margin: 0 auto;
+    /* 页边距 */
+    padding: var(--base-page-margin);
+    padding-bottom: 100px;
 }
+
+strong,
+#write strong {
+    font-weight: var(--strong-weight);
+    color: var(--strong-text-color);
+    font-family: var(--base-Latin-font), var(--base-Chinese-font), serif;
+
+    /* 字体不支持加粗，阴影模拟加粗 */
+    text-shadow: 0.05px 0 0 #000, 0 0.05px 0 #000, -0.05px 0 0 #000, 0 -0.05px 0 #000;
+}
+
 
 #write .md-math-block,
 #write .md-rawblock,
 #write p {
-    text-align: justify;
+    text-align: left;
     line-height: var(--base-line-height);
     margin-top: 1em;
     margin-bottom: 1em;
-    color: var(--text-color);
+
+    /* 使用下面的全部颜色会锁定,包括引言 */
+    /* color: var(--text-color); */
 }
 
 #write a {
@@ -191,25 +217,23 @@ blockquote {
     font-style: normal;
     font-family: var(--quote-font), var(--base-Latin-font), var(--base-Chinese-font), -apple-system, serif;
     font-size: var(--quote-font-size);
-    /* border-left: 1px solid black; */
-    padding-left: 2em;
-    /* 文字离左边框的距离 */
-    padding-right: 2em;
-    /* 左边框离页面边的距离 */
-    margin-left: 0;
+
+    border-left: 4px solid #b3b3b3;
+    padding: 0 15px;
+    color: var(--blockquote-color);
 }
 
-blockquote p:first-child {
+/* blockquote p:first-child {
     padding-top: 1ch;
-}
+  }
 
-blockquote p:last-child {
+  blockquote p:last-child {
     padding-bottom: 1ch;
-}
+  } */
 
 blockquote blockquote {
-    border-left: 4px solid #b3b3b3;
-    padding-left: calc(2ch - 4px);
+    border-left: 4px solid #dfe2e5;
+    /* padding-left: calc(2ch - 4px); */
     padding-right: 0;
     margin-left: -4px;
     border-radius: 0;

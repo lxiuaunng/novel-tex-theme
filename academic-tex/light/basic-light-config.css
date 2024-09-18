@@ -1,0 +1,29 @@
+@import "../basic/base-config.css";
+
+:root {
+  /* 正文文本颜色*/
+  --text-color: black;
+
+  /* 超链接颜色，我调成了蓝色 */
+  --link-color: #2E67D3;
+
+  --primary-btn-text-color: black;
+  --bg-color: white;
+  --border-color: black;
+
+  --select-text-bg-color: rgb(218, 227, 234);
+  --select-text-font-color: var(--text-color);
+
+  --li-code-bg-color: rgb(238, 238, 238);
+
+  /* 行内代码字体 */
+  --code-color: #3c70c6;
+  --code-background-color: #fefefe;
+  --code-box-shadow-color: #c8d3df;
+
+  /* 引言字体颜色 */
+  --blockquote-color: #555;
+
+  /* 页边阴影 */
+  --margin-shadow: #cccccc;
+}

@@ -1,9 +1,9 @@
 :root {
-    --ui-font: "Microsoft YaHei";
+    --ui-font: "JetBrains Mono", "阿里巴巴普惠体 2.0", "Times New Roman", "Source Han Serif SC", "Microsoft YaHei";
 
     /*选中文本样式*/
     --select-text-bg-color: rgb(70, 70, 70);
-    --select-text-font-color: rgb(255,255,255);
+    --select-text-font-color: rgb(255, 255, 255);
 
     /*编辑区颜色*/
     --text-color: black;
@@ -41,7 +41,7 @@
     :root {
         --body-border-color: var(--bg-color);
     }
-  }
+}
 
 .typora-node #typora-sidebar {
     color: var(--sidebar-text-color);
@@ -85,8 +85,7 @@ footer.ty-footer {
 /* typora 源代码模式 */
 #typora-source {
     font-family: var(--sourceMode-font), var(--code-font), var(--ui-font), monospace;
-    font-size: var(--base-font-size);
-    line-height: 1em;
+    line-height: 2em;
 }
 
 .sidebar-content {

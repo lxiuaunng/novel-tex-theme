@@ -1,0 +1,34 @@
+@import "../basic/base-config.css";
+
+:root {
+  /* 正文文本颜色，我稍微调亮了一点 */
+  --text-color: #ddd;
+
+  /* 超链接颜色，我调成了蓝色 */
+  --link-color: #8bb1f9;
+
+  /* 编辑页的背景颜色 */
+  --bg-color: #1E1E1E;
+
+  --strong-text-color: rgb(255, 255, 255);
+
+  /* 标题颜色，我稍微调亮了一点 */
+  --title-text-color: rgb(240, 240, 240);
+
+
+  /* 行内代码字体 */
+  --code-color: #8bb1f9;
+  --code-background-color: #161616;
+  --code-box-shadow-color: #141414;
+
+  /* 引言字体颜色 */
+  --blockquote-color: #888;
+
+  /* 页边阴影 */
+  --margin-shadow: #101010;
+}
+
+/* 编辑框外的背景色，独一份，light没有 */
+html>body>content {
+  background-color: #161616;
+}

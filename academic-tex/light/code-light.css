@@ -1,12 +1,14 @@
-@import "../../basic/academic/basic-code.css";
+@import "../basic/basic-code.css";
 
 :root {
     --code-linenumber-color: grey;
     --code-keyword: #0055ff;
     --code-operator: #000000;
-    --code-variable: #0000CC;   /*变量*/
+    --code-variable: #0000CC;
+    /*变量*/
     --code-variable-2: #9900CC;
-    --code-variable-3: #9900CC; /*int*/
+    --code-variable-3: #9900CC;
+    /*int*/
     --code-builtin: #DECB6B;
     --code-atom: #F77669;
     --code-number: #F77669;

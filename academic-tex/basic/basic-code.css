@@ -1,22 +1,24 @@
 :root {
-    --code-font: "Consolas", var(--base-Chinese-font);
+    --code-font: "JetBrains Mono", "Consolas", "阿里巴巴普惠体 2.0", var(--base-Chinese-font);
     --code-font-size: 0.95em;
     --li-code-bg-color: var(--bg-color);
-    --li-code-radius: 0.3em;
-    --li-code-padding: 0.2em;
+    --li-code-radius: 2px 2px 2px 2px;
+    --li-code-padding: 0 2px 0 2px;
+    --li-code-margin: 0 2px 0 2px;
     --code-inline-font-size: 0.95em;
     --code-bg-color: var(--bg-color);
     --code-border-color: var(--border-color);
 }
 
-code{
-    border: 1px solid #e7eaed;
+code {
+    border: 1px solid var(--bg-color);
+    /* border: 1px solid #e7eaed; */
     background-color: #f8f8f8;
     border-radius: 3px;
     padding: 0;
     padding: 2px 4px 0px 4px;
     font-size: 0.9em;
-  }
+}
 
 
 
@@ -45,14 +47,18 @@ h4 code,
 h5 code,
 h6 code,
 p code,
+table code,
 li code {
-    color: var(--code-font-color);
-    background-color: var(--li-code-bg-color);
-    box-shadow: 0 0 1px 1px var(--bg-color-shader);
+    color: var(--code-color);
+    /* color: var(--code-font-color); */
+    background-color: var(--code-background-color);
+    /* background-color: var(--li-code-bg-color); */
+    box-shadow: 0 0 1px 1px var(--code-box-shadow-color);
+    /* box-shadow: 0 0 1px 1px var(--bg-color-shader); */
     font-family: var(--code-font);
     font-size: var(--code-inline-font-size);
     box-sizing: border-box;
-    margin: 0 0 0 0;
+    margin: var(--li-code-margin);
     padding: var(--li-code-padding);
     border-radius: var(--li-code-radius);
 }
@@ -61,7 +67,7 @@ li code {
 .CodeMirror-wrap {
     padding: 10px;
     font-size: var(--code-font-size);
-  }
+}
 
 .CodeMirror-code pre {
     font-family: var(--code-font), var(--ui-font), monospace;

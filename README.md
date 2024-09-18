@@ -1,3 +1,16 @@
+复刻自 [soryu-ryouji/novel-tex-theme](https://github.com/soryu-ryouji/novel-tex-theme)，将 `academic-tex-l.css` 及其依赖的相关文件提取出来，并做出了一定的个性化修改，使之更接近 [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) 了一点，虽然是 `academic` 但修改过后已经不再适用于写论文了，可以作为日常使用。
+
+修改内容如下：
+
+- 修改行内代码、超链接颜色为蓝色。
+- 增加了 [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)  主题一样的页面阴影。
+- 增大页宽为 31cm 。
+- 提升了 Dark 主题下整个页面的暗度；提升了 Dark 主题下字体的亮度，使主题没那么”灰蒙蒙“了。
+
+
+
+---
+
 <div align=center>
     <img src="./.assets/novel-tex-logo.png">
 </div>
@@ -38,7 +51,6 @@ NovelTex 使用思源宋体作为文档中文字体、Times New Roman 作为文�
 | ND   | Normal Dark  |
 | FL   | Full Light   |
 | NL   | Normal Lignt |
-
 
 ## 开发指南
 

@@ -60,17 +60,17 @@
     }
 
     .md-toc-h4 {
-        display: none;
+        /* display: none; */
         counter-reset: toc-h5;
     }
 
     .md-toc-h5 {
-        display: none;
+        /* display: none; */
         counter-reset: toc-h6;
     }
 
     .md-toc-h6 {
-        display: none;
+        /* display: none; */
         counter-reset: toc-h6;
     }
 

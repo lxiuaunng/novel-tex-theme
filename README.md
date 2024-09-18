@@ -7,6 +7,7 @@
 - 增加了 [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)  主题一样的页面阴影。
 - 增大页宽为 31cm 。
 - 提升了 Dark 主题下整个页面的暗度；提升了 Dark 主题下字体的亮度，使主题没那么”灰蒙蒙“了。
+- 修改正文文本的对齐方式： `text-align: justify` 修改为 `text-align: left` 。
 
 
 

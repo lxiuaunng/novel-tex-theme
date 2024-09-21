@@ -99,6 +99,7 @@ pre.md-meta-block {
     padding: 1.4em;
     font-family: var(--code-font), var(--ui-font), monospace;
     font-size: 0.8em;
+    box-shadow: 0 0 10px 1px var(--margin-shadow);
 }
 
 #write {

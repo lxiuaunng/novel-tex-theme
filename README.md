@@ -9,7 +9,7 @@
 - 提升了 Dark 主题下整个页面的暗度；提升了 Dark 主题下字体的亮度，使主题没那么”灰蒙蒙“了。
 - 修改正文文本的对齐方式： `text-align: justify` 修改为 `text-align: left` 。
 - 给 markdown 文档最上方的 YAML front matter 区域增加了 `box-shadow` 属性。
-- 修改了 html 代码块部分样式。
+- 修改了 html 代码块部分背景颜色。
 
 
 

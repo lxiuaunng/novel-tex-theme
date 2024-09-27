@@ -62,3 +62,9 @@ html>body>content {
   border-radius: 4px 4px 0px 0px;
   z-index: 0
 }
+
+.md-htmlblock-container {
+  min-height: 20px;
+  cursor: default;
+  padding: 5px;
+}

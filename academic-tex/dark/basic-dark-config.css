@@ -36,7 +36,7 @@ html>body>content {
 
 
 
-/* html 代码块颜色*/
+/* html 代码块背景颜色和圆角*/
 .md-rawblock-on-edit>.md-rawblock-tooltip,
 .md-rawblock:hover>.md-rawblock-container,
 .md-rawblock:hover>.md-rawblock-tooltip {

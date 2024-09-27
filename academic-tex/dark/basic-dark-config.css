@@ -15,7 +15,6 @@
   /* 标题颜色，我稍微调亮了一点 */
   --title-text-color: rgb(240, 240, 240);
 
-
   /* 行内代码字体 */
   --code-color: #8bb1f9;
   --code-background-color: #161616;
@@ -28,7 +27,38 @@
   --margin-shadow: #101010;
 }
 
+
+
 /* 编辑框外的背景色，独一份，light没有 */
 html>body>content {
   background-color: #161616;
+}
+
+
+
+/* html 代码块颜色*/
+.md-rawblock-on-edit>.md-rawblock-tooltip,
+.md-rawblock:hover>.md-rawblock-container,
+.md-rawblock:hover>.md-rawblock-tooltip {
+  transition: background .5s linear;
+  background: #333;
+  border-radius: 4px 0px 4px 4px;
+  display: block
+}
+
+.md-rawblock:hover>.md-rawblock-tooltip {
+  transition: initial;
+  animation: background .5s linear;
+  border-radius: 4px 4px 0px 0px;
+  display: block
+}
+
+.md-rawblock-control:not(.md-rawblock-tooltip) {
+  background: #333;
+  border-radius: 4px 0px 4px 4px
+}
+
+.md-htmlblock .md-rawblock-tooltip {
+  border-radius: 4px 4px 0px 0px;
+  z-index: 0
 }

@@ -8,7 +8,7 @@
   --link-color: #8bb1f9;
 
   /* 编辑页的背景颜色 */
-  --bg-color: #1E1E1E;
+  --bg-color: #1e1e1e;
 
   --strong-text-color: rgb(255, 255, 255);
 
@@ -25,42 +25,41 @@
 
   /* 页边阴影 */
   --margin-shadow: #101010;
+
+  /* 斜体字体颜色 */
+  --em-color: #bbb;
 }
 
-
-
 /* 编辑框外的背景色，独一份，light没有 */
-html>body>content {
+html > body > content {
   background-color: #161616;
 }
 
-
-
 /* html 代码块背景颜色和圆角*/
-.md-rawblock-on-edit>.md-rawblock-tooltip,
-.md-rawblock:hover>.md-rawblock-container,
-.md-rawblock:hover>.md-rawblock-tooltip {
-  transition: background .5s linear;
+.md-rawblock-on-edit > .md-rawblock-tooltip,
+.md-rawblock:hover > .md-rawblock-container,
+.md-rawblock:hover > .md-rawblock-tooltip {
+  transition: background 0.5s linear;
   background: #333;
   border-radius: 4px 0px 4px 4px;
-  display: block
+  display: block;
 }
 
-.md-rawblock:hover>.md-rawblock-tooltip {
+.md-rawblock:hover > .md-rawblock-tooltip {
   transition: initial;
-  animation: background .5s linear;
+  animation: background 0.5s linear;
   border-radius: 4px 4px 0px 0px;
-  display: block
+  display: block;
 }
 
 .md-rawblock-control:not(.md-rawblock-tooltip) {
   background: #333;
-  border-radius: 4px 0px 4px 4px
+  border-radius: 4px 0px 4px 4px;
 }
 
 .md-htmlblock .md-rawblock-tooltip {
   border-radius: 4px 4px 0px 0px;
-  z-index: 0
+  z-index: 0;
 }
 
 .md-htmlblock-container {

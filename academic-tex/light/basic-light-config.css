@@ -5,7 +5,7 @@
   --text-color: black;
 
   /* 超链接颜色，我调成了蓝色 */
-  --link-color: #2E67D3;
+  --link-color: #2e67d3;
 
   --primary-btn-text-color: black;
   --bg-color: white;
@@ -26,4 +26,7 @@
 
   /* 页边阴影 */
   --margin-shadow: #cccccc;
+
+  /* 斜体字体颜色 */
+  --em-color: #777;
 }

@@ -250,3 +250,8 @@ hr {
   margin-top: 1.8em;
   margin-bottom: 1.8em;
 }
+
+sup.md-footnote {
+  background-color: var(--sup-footnote-bg);
+  color: var(--sup-footnote);
+}

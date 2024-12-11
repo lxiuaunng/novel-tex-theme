@@ -29,4 +29,8 @@
 
   /* 斜体字体颜色 */
   --em-color: #777;
+
+  /* 注脚颜色 */
+  --sup-footnote-bg: rgb(0, 0, 0, 0.1);
+  --sup-footnote: rgb(0, 0, 0);
 }
